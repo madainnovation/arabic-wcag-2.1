@@ -1,0 +1,32 @@
+.conformance-level {
+	display:inline;
+}
+
+.change {
+	display:inline;
+}
+
+.doclinks {
+	float: left;
+	border: thin solid black;
+	font-size: x-small;
+	display: block;
+	width: 25%;
+	hyphens: none;
+}
+.sc dt {
+	display: list-item;
+	list-style-type: disc;
+	float: right;
+	font-weight: bold;
+	margin-right: 2em;
+	margin-left: 1ex;
+	line-height: 1.5;
+}
+.sc dt:after {
+	content: ":";
+}
+div.note-title, div.ednote-title {
+	color: #008400
+}
+span.screenreader {position: absolute; right: -10000px}
